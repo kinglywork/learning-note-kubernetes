@@ -1,27 +1,27 @@
 # Kubernetes
 
 ## Service & Pod
-![a3862ac0c931ec5f8aded496c0fd83e5.png](../_resources/a3862ac0c931ec5f8aded496c0fd83e5.png)
-![1ec4fb73710c2cfb5be2fa73c00d2324.png](../_resources/1ec4fb73710c2cfb5be2fa73c00d2324.png)
+![a3862ac0c931ec5f8aded496c0fd83e5.png](./_resources/a3862ac0c931ec5f8aded496c0fd83e5.png)
+![1ec4fb73710c2cfb5be2fa73c00d2324.png](./_resources/1ec4fb73710c2cfb5be2fa73c00d2324.png)
 
 ## Deployments
-![34e46cdab3c3d88bbf9b4bfd4ebe4a11.png](../_resources/34e46cdab3c3d88bbf9b4bfd4ebe4a11.png)
+![34e46cdab3c3d88bbf9b4bfd4ebe4a11.png](./_resources/34e46cdab3c3d88bbf9b4bfd4ebe4a11.png)
 
 ## Rollout
-![fe8b3c9df926ae310e0574ef31a61cf2.png](../_resources/fe8b3c9df926ae310e0574ef31a61cf2.png)
+![fe8b3c9df926ae310e0574ef31a61cf2.png](./_resources/fe8b3c9df926ae310e0574ef31a61cf2.png)
 
 ## Network
-![be8aa0e3140fd25e85b88187a661df56.png](../_resources/be8aa0e3140fd25e85b88187a661df56.png)
+![be8aa0e3140fd25e85b88187a661df56.png](./_resources/be8aa0e3140fd25e85b88187a661df56.png)
 
 ## Namespace
-![1da502dbb84754708b6636492bbccf6b.png](../_resources/1da502dbb84754708b6636492bbccf6b.png)
+![1da502dbb84754708b6636492bbccf6b.png](./_resources/1da502dbb84754708b6636492bbccf6b.png)
 
 `nslookup domain_name`
 
 ## Logging
 
-![337570299fc7d536d854a7c1d3613236.png](../_resources/337570299fc7d536d854a7c1d3613236.png)
-![a54cd00a3238eb9b79e57076afa01424.png](../_resources/a54cd00a3238eb9b79e57076afa01424.png)
+![337570299fc7d536d854a7c1d3613236.png](./_resources/337570299fc7d536d854a7c1d3613236.png)
+![a54cd00a3238eb9b79e57076afa01424.png](./_resources/a54cd00a3238eb9b79e57076afa01424.png)
 
 ## Monitoring
 
@@ -55,16 +55,16 @@ no impact on running workloads, but pods cannot be scheduled before master node 
 - set resonable Requests as per the metrics
 
 ## Horizontal Pod AutoScale
-![7e164abe86c0cba0deaa52987ba9bb66.png](../_resources/7e164abe86c0cba0deaa52987ba9bb66.png)
+![7e164abe86c0cba0deaa52987ba9bb66.png](./_resources/7e164abe86c0cba0deaa52987ba9bb66.png)
 
 `kubectl get hpa`
 `kubectl get hpa api-gateway -o yaml`
 
 ## Readiness and Liveness probe
-![076e3f17fbc81c666983590ded7e9500.png](../_resources/076e3f17fbc81c666983590ded7e9500.png)
+![076e3f17fbc81c666983590ded7e9500.png](./_resources/076e3f17fbc81c666983590ded7e9500.png)
 
 ## Quality of Service and Eviction
-![2ccc983612cba89d8dc19fe6162dc9ac.png](../_resources/2ccc983612cba89d8dc19fe6162dc9ac.png)
+![2ccc983612cba89d8dc19fe6162dc9ac.png](./_resources/2ccc983612cba89d8dc19fe6162dc9ac.png)
 
 - Pod priority
 
@@ -83,7 +83,7 @@ versioning the config to update the references to make it work
 
 ## Ingress controller
 
-![273beb4c501088a2b5183082330c84ad.png](../_resources/273beb4c501088a2b5183082330c84ad.png)
+![273beb4c501088a2b5183082330c84ad.png](./_resources/273beb4c501088a2b5183082330c84ad.png)
 - Authentication
 
 ## Other workloads
@@ -93,7 +93,7 @@ versioning the config to update the references to make it work
 - DaemonSets
   fluentd, logstash
 - StatefulSets
-  ![106fb877913371086c099f08cca4027b.png](../_resources/106fb877913371086c099f08cca4027b.png)
+  ![106fb877913371086c099f08cca4027b.png](./_resources/106fb877913371086c099f08cca4027b.png)
   key point of "stateful" means the name of the pod is stateful, usage example: elasticsearch cluster, kafka cluster, database replication
 
 ## CI/CD
